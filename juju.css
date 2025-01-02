@@ -1,0 +1,33 @@
+body{
+    background-image:url(images.jpg) ;
+    
+}
+.container{
+    margin: 100px 0 0 230px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.container img{
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-out 0.5s;
+}
+.container  :hover{
+   
+    width: 8055%;
+}
+.mar{
+    margin-left: 650px;
+    height: 100px;
+    justify-content: center;
+    width: 50%;
+    margin-top: 60px;
+    font-size: 50px;
+}
+
